@@ -4,8 +4,9 @@ import Hero from '../components/Hero'
 import Info from '../components/Info'
 import { homeObjOne, homeObjTwo, homeObjThree} from '../components/Info/Data';
 import Navbar from '../components/Navbar'
-import Services from '../components/Services';
-import ServicesTwo from '../components/ServicesTwo';
+import Projects from '../components/Projects';
+import Experience from '../components/Experience';
+import Education from '../components/Education';
 import Sidebar from '../components/SideBar'
 
 const Home = () => {
@@ -21,9 +22,10 @@ const Home = () => {
       <Navbar toggle={toggle}/>
       <Hero />
       <Info {...homeObjOne}/>
-      <ServicesTwo />
-      <Info {...homeObjTwo}/>
-      <Services />
+      <Experience />
+      <Education />
+      {/* <Info {...homeObjTwo}/> */}
+      <Projects />
       
       
       <Info {...homeObjThree}/>

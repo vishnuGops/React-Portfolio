@@ -43,9 +43,9 @@ export const ServicesCard = styled.div`
   justify-content: flex-start;
   align-items: center;
   border-radius: 10px;
-  height: 700px;
+  height: 800px;
   max-height: fit-content;
-  padding:  30px;
+  padding:  30px ;
   box-shadow: 0 1px 3px rgba(0,0,0,0.2);
   transition: all 0.2s ease-in-out;
 
@@ -73,6 +73,7 @@ export const ServicesH1 = styled.h1`
 export const ServicesH2 = styled.h2`
   font-size: 1.2rem;
   margin-bottom: 10px;
+  
 `
 
 export const ServicesP = styled.p`
@@ -85,6 +86,8 @@ export const ServicesP2 = styled.p`
 `
 export const ServicesDesc = styled.ul`
   margin-top: 20px;
+  /* margin-left: 20px;
+  margin-right: 20px; */
   line-height: 20pt;
   font-size: 1rem;
   text-align: center;
