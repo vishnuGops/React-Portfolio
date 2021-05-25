@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from '../ButtonElements'
+// import { Button } from '../ButtonElements'
 import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './InfoElements'
 
 const Info = ({lightBg, id, imgStart, topLine, lightText, headline1, headline2, headline3, darkText, description, buttonLabel, alt, img, primary, dark, dark2 }) => {
@@ -15,7 +15,7 @@ const Info = ({lightBg, id, imgStart, topLine, lightText, headline1, headline2, 
                 <Heading lightText={lightText}>{headline2}</Heading>
                 <Heading lightText={lightText}>{headline3}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
-                <BtnWrap>
+                {/* <BtnWrap>
                   <Button to='home'
                   smooth={true}
                   duration={500}
@@ -27,7 +27,7 @@ const Info = ({lightBg, id, imgStart, topLine, lightText, headline1, headline2, 
                   dark2={dark2 ? 1 : 0}
                   >{buttonLabel}
                   </Button>
-                </BtnWrap>
+                </BtnWrap> */}
               </TextWrapper>
             </Column1>
             <Column2>

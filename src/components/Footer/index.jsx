@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrap>
-        <FooterLinkContainer>
+        {/* <FooterLinkContainer>
           <FooterLinkWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>About us</FooterLinkTitle>
@@ -30,7 +30,7 @@ const Footer = () => {
             </FooterLinkItems>
           </FooterLinkWrapper>
 
-          <FooterLinkWrapper>
+           <FooterLinkWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>Videos</FooterLinkTitle>
                 <FooterLink to='/'>Submit Video</FooterLink>
@@ -45,8 +45,8 @@ const Footer = () => {
                 <FooterLink to='/'>Youtube</FooterLink>
                 <FooterLink to='/'>Twitter</FooterLink>
             </FooterLinkItems>
-          </FooterLinkWrapper>
-        </FooterLinkContainer>
+          </FooterLinkWrapper> 
+        </FooterLinkContainer> */}
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
@@ -54,19 +54,19 @@ const Footer = () => {
             </SocialLogo>
             <WebsiteRights>VG © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
             <SocialIcons>
-              <SocialIconLink href='/' target='_blank' arial-label='Facebook'>
+              <SocialIconLink href='https://www.facebook.com/Vishnu.Gops10' target='_blank' arial-label='Facebook'>
                 <FaFacebook />
               </SocialIconLink>
-              <SocialIconLink href='//www.instagram.com/leonardtcomdt/' target='_blank' arial-label='Instagram'>
+              <SocialIconLink href='https://www.instagram.com/vishnugops/' target='_blank' arial-label='Instagram'>
                 <FaInstagram/>
               </SocialIconLink>
-              <SocialIconLink href='//www.youtube.com/channel/UCF6Cz50AqAJcg6JC5LDRElg/videos?view_as=subscriber' target='_blank' arial-label='Youtube'>
+              <SocialIconLink href='https://www.youtube.com/channel/UCqRp3VPHZ_sW4Rxkd2Rx51A' target='_blank' arial-label='Youtube'>
                 <FaYoutube />
               </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' arial-label='Twitter'>
+              <SocialIconLink href='https://twitter.com/vishnu_gops' target='_blank' arial-label='Twitter'>
                 <FaTwitter/>
               </SocialIconLink>
-              <SocialIconLink href='//www.linkedin.com/in/leonardtlauenstein/' target='_blank' arial-label='Linkedin'>
+              <SocialIconLink href='https://www.linkedin.com/in/vishnugops/' target='_blank' arial-label='Linkedin'>
                 <FaLinkedin />
               </SocialIconLink>
             </SocialIcons>

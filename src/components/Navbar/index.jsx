@@ -53,14 +53,14 @@ const Navbar = ({ toggle }) => {
               >Projects</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='signup'
+              <NavLinks to='contact'
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
               >Contact</NavLinks>
             </NavItem>
           </NavMenu>
-          <NavBtn>
+          {/* <NavBtn>
             <NavBtnLink to='/signin'>Sign In</NavBtnLink>
-          </NavBtn>
+          </NavBtn> */}
         </NavbarContainer>
       </Nav>
     </IconContext.Provider>

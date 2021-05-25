@@ -2,7 +2,9 @@ import React, {useState} from 'react'
 import Footer from '../components/Footer';
 import Hero from '../components/Hero'
 import Info from '../components/Info'
-import { homeObjOne, homeObjTwo, homeObjThree} from '../components/Info/Data';
+import InfoTwo from '../components/InfoTwo'
+import { homeObjOne} from '../components/Info/Data';
+import { homeObjTwo} from '../components/InfoTwo/Data';
 import Navbar from '../components/Navbar'
 import Projects from '../components/Projects';
 import Experience from '../components/Experience';
@@ -28,7 +30,8 @@ const Home = () => {
       <Projects />
       
       
-      <Info {...homeObjThree}/>
+      <InfoTwo {...homeObjTwo}/>
+      {/* <InfoTwo {...homeObjThree}/> */}
       <Footer />
     </>
   )
