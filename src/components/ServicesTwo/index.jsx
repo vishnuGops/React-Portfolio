@@ -28,6 +28,11 @@ const Services = () => {
           <ServicesP>Software Engineer</ServicesP>
           <ServicesP2>Bangalore, IN</ServicesP2>
           <ServicesP2>Jan 2019 – Mar 2019</ServicesP2>
+          <ServicesDesc>
+            <li>Worked along with a team to complete the Autopilot System called AP Swarm</li>
+            <li>Worked on developing code for the Communications and Calibrations of the Autopilot System using C++. Developed code to successfully send and retrieve required flight data from Drone using Embedded sensors and High-end SoC like Inertial Sense and Apalis Tk1.</li>
+            <li>Collaborated with different teams using Agile Software practices to determine requirements and solutions in order to effectively build Auto Pilot AP Swarm</li>
+          </ServicesDesc>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3}/>
@@ -35,6 +40,11 @@ const Services = () => {
           <ServicesP>Software Engineering Intern</ServicesP>
           <ServicesP2>Bangalore, IN</ServicesP2>
           <ServicesP2>Dec 2017 – Feb 2018</ServicesP2>
+          <ServicesDesc>
+            <li>Research and building of a Quad-copter using 3D-Printer. Worked on projects using Open CV and Python. Developed a basic Mobile Application to control Robot car via Bluetooth.</li>
+            <li>Developed multiple Computer Vision functionality and features for ground bot and drone using OpenCV and ROS.</li>
+            <li>Various CV functions developed: Shape Detection, Pattern and Road Sign Detection, Face Detection, Line Follow,Drone controlled using remote controller, “Master and Slave Robotics using Ground bot and Drone” (Main Project)</li>
+          </ServicesDesc>
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>

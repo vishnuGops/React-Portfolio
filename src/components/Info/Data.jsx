@@ -1,18 +1,18 @@
 export const homeObjOne = {
   id: 'about',
-  lightBg: false,
-  lightText: true,
+  lightBg: true,
+  lightText: false,
   lighttextDesc: true,
   topLine: 'Who am I?',
   headline: 'Software Developer',
   description: 'Engaged and Attentive Software Developer with a wide range of Computer Science skills and expertise. When it comes to solving problems, I am more of a creative and out-of-the-box thinker coming up with well-rounded solutions. Working on various projects involving agile methodologies has taught me to get better with success and learn with failure. These team and individual efforts have made me a robust and smart thinker, with strong verbal and written communication skills.',
   buttonLabel: 'Get started',
   imgStart: false,
-  img: '/images/svg1.svg',
-  alt: 'car',
+  img: '/images/svg-1.svg',
+  alt: 'Coder',
   dark: true,
   primary: true,
-  darkText: false
+  darkText: true
 };
 
 export const homeObjTwo = {
