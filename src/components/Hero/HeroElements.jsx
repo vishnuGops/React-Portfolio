@@ -64,15 +64,15 @@ export const HeroH1 = styled.h1`
 export const HeroP = styled.p`
   margin-top: 24px;
   color: #fff;
-  font-size: 44px;
+  font-size: 34px;
   text-align: center;
-  max-width: 600px;
+  max-width: 900px;
 
   @media screen and (max-wodth: 768px) {
-    font-size: 34px
+    font-size: 28px
   }
   @media screen and (max-wodth: 480px) {
-    font-size: 28px
+    font-size: 22px
   }
 `
 export const HeroBtnWrapper = styled.div`

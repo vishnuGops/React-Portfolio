@@ -17,7 +17,7 @@ const Hero = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>Hi, I am Vishnu</HeroH1>
-        <HeroP>Software Developer</HeroP>
+        <HeroP>Software Development Engineer</HeroP>
         <HeroBtnWrapper>
           <Button to='contact' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
             Get in touch with me {hover ? <ArrowForward /> : <ArrowRight/>}
