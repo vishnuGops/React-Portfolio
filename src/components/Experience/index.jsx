@@ -38,7 +38,7 @@ const Services = () => {
       <ServicesWrapper>
         <ServicesCard>
         <ServicesIcon src={Icon2}/>
-          <ServicesH2>Tata Advanced Systems Limited</ServicesH2>
+          <ServicesH2>Tata Advanced Systems Lmt</ServicesH2>
           <ServicesP>Software Engineer</ServicesP>
           <ServicesP2>Bangalore, IN</ServicesP2>
           <ServicesP2>Jan 2019 – Mar 2019</ServicesP2>
