@@ -54,9 +54,9 @@ const Footer = () => {
             </SocialLogo>
             <WebsiteRights>VG © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
             <SocialIcons>
-              <SocialIconLink href='https://www.facebook.com/Vishnu.Gops10' target='_blank' arial-label='Facebook'>
+              {/* <SocialIconLink href='https://www.facebook.com/Vishnu.Gops10' target='_blank' arial-label='Facebook'>
                 <FaFacebook />
-              </SocialIconLink>
+              </SocialIconLink> */}
               <SocialIconLink href='https://www.instagram.com/vishnugops/' target='_blank' arial-label='Instagram'>
                 <FaInstagram/>
               </SocialIconLink>
