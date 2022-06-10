@@ -69,6 +69,9 @@ const Footer = () => {
               <SocialIconLink href='https://www.linkedin.com/in/vishnugops/' target='_blank' arial-label='Linkedin'>
                 <FaLinkedin />
               </SocialIconLink>
+              <SocialIconLink href='https://www.instagram.com/vish_you_were_there/' target='_blank' arial-label='Instagram'>
+                <FaInstagram/>
+              </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>
         </SocialMedia>
