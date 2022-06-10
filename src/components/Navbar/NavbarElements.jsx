@@ -36,6 +36,8 @@ export const NavLogo = styled(LinkR) `
   display: flex;
   align-items: center;
   margin-left: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-weight: bold;
   text-decoration: none;
 `
@@ -70,15 +72,16 @@ export const NavItem = styled.li`
 `
 export const NavLinks = styled(LinkS)`
   color: #fff;
+  font-weight: bold;
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
-  height: 100%;
+  height: 95%;
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid #00e6e6
+    border-bottom: 6px solid #00e6e6
   }
 `
 // export const NavBtn = styled.nav`

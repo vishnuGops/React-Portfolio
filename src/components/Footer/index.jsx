@@ -50,7 +50,7 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
-              VG
+            <img src='/VGLogo.png' height="75" width="75"></img>
             </SocialLogo>
             <WebsiteRights>VG © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
             <SocialIcons>
