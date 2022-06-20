@@ -2,7 +2,11 @@
   "name": "mm",
   "version": "0.1.0",
   "private": true,
+<<<<<<< HEAD
   "homepage": "https://www.vishnugops.com",
+=======
+  "homepage": "https://vishnugops.com",
+>>>>>>> 51add5ea3c40cbc2ed5c297ca6a7dc1be39f7a59
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
