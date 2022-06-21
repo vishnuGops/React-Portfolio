@@ -2,15 +2,12 @@
   "name": "mm",
   "version": "0.1.0",
   "private": true,
-<<<<<<< HEAD
-  "homepage": "https://www.vishnugops.com",
-=======
   "homepage": "https://vishnugops.com",
->>>>>>> 51add5ea3c40cbc2ed5c297ca6a7dc1be39f7a59
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^4.1.0",
@@ -45,8 +42,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
   }
 }
