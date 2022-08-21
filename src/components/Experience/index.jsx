@@ -13,10 +13,11 @@ const Services = () => {
       <ServicesCard>
           <ServicesIcon src={Icon3}/>
           <ServicesH2>Cepheid</ServicesH2>
-          <ServicesP>Software Development Engineer</ServicesP>
+          <ServicesP>Software Engineer II</ServicesP>
           <ServicesP2>Sunnyvale, CA</ServicesP2>
           <ServicesP2>July 2021 – Present</ServicesP2>
           <ServicesDesc>
+            <li>Contributing to Product Lifecycle Management team (PLM) on G1S firmware module for GeneXpert products by delivering more efficient and less tightly coupled Firmware updates using GeneXpert product software.</li>
             <li>Responsible for full-stack design, development, and debugging of GeneXpert Infinity product software using Core Java and SQL. Working towards enhancing and maintaining existing software with new features and increased performance.</li>
             <li>Worked on Database migration using SQL on SSMS combined with JUnit test cases to ensure consistency in data.</li>
             <li>Successfully complete Phase 1 of GeneXpert Infinity product software development following Agile Software Development Methodologies</li>
