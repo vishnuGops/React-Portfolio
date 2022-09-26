@@ -1,15 +1,6 @@
 {
-<<<<<<< HEAD
   "short_name": "Meet Vishnu!",
   "name": "Meet Vishnu! : Personal Website",
-<<<<<<< HEAD
->>>>>>> 51add5ea3c40cbc2ed5c297ca6a7dc1be39f7a59
-=======
-  "short_name": "React App",
-  "name": "Create React App Sample",
->>>>>>> parent of 95ebbee (commit)
-=======
->>>>>>> parent of 2de21e9 (commit)
   "icons": [
     {
       "src": "favicon.ico",
