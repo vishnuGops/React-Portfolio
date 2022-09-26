@@ -3,7 +3,22 @@ import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
 
 export const Nav = styled.nav`
-  background: ${({scrollNav}) => (scrollNav ? '#006666' : 'transparent')};
+  /* ff 3.6+ */
+  background:-moz-radial-gradient(circle at 100% 100%, rgba(39, 122, 176, 1) 0%, rgba(32, 0, 36, 1) 100%);
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-radial-gradient(circle at 100% 100%, rgba(39, 122, 176, 1) 0%, rgba(32, 0, 36, 1) 100%);
+
+  /* opera 11.10+ */
+  background:-o-radial-gradient(circle at 100% 100%, rgba(39, 122, 176, 1) 0%, rgba(32, 0, 36, 1) 100%);
+
+  /* ie 10+ */
+  background:-ms-radial-gradient(circle at 100% 100%, rgba(39, 122, 176, 1) 0%, rgba(32, 0, 36, 1) 100%);
+
+  /* global 92%+ browsers support */
+  background:radial-gradient(circle at 100% 100%, rgba(39, 122, 176, 1) 0%, rgba(32, 0, 36, 1) 100%);
+
+
   height: 70px;
   margin-top: -80px;
   display:flex;
@@ -35,8 +50,8 @@ export const NavLogo = styled(LinkR) `
   font-size: 1.5rem;
   display: flex;
   align-items: center;
-  margin-left: 24px;
-  margin-top: 10px;
+  margin-left: 20px;
+  margin-top: 15px;
   margin-bottom: 10px;
   font-weight: bold;
   text-decoration: none;
