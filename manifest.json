@@ -2,9 +2,6 @@
 
       "short_name": "Meet Vishnu!",
       "name": "Meet Vishnu! : Personal Website",
-
-      "short_name": "React App",
-      "name": "Create React App Sample",
  
       "start_url": ".",
       "display": "standalone",
