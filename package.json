@@ -1,8 +1,8 @@
 {
   "name": "vg-website",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "private": true,
-  "homepage": "https://vishnugops.com",
+  "homepage": "https://www.vishnugops.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
