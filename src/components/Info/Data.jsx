@@ -34,6 +34,7 @@ export const homeObjOne = {
 //   darkText: true
 // };
 
+//currently not in use
 export const homeObjThree = {
   id: 'contact',
   lightBg: true,

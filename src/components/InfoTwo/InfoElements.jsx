@@ -1,13 +1,44 @@
 import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
-  color: #fff;
-  background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
-
-  @media screen and  (max-width: 768px) {
-    padding: 100px 0;
+  background: #0c0c0c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  height: 600px;
+  position: relative;
+  z-index: 1;
+  :before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* background: linear-gradient(180deg, rgba(0,0,0,0.2)0%, rgba(0,0,0,0.6)100%),   */
+    /* linear-gradient(180deg, rgba(0,0,0,0.2)0%, transparent 100%); */
+    z-index: 2;
   }
 `
+export const InfoBg = styled.div`
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+`
+export const VideoBg = styled.video`
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  background: #232a34;
+`
+
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
@@ -45,10 +76,10 @@ export const TextWrapper = styled.div`
   padding-bottom: 60px;
 `
 export const TopLine = styled.p`
-  color: #01bf71;
-  font-size: 16px;
+  color: #02bf47;
+  font-size: 36px;
   line-height: 16px;
-  font-weight: 700;
+  font-weight: 1000;
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 16px;
@@ -90,9 +121,9 @@ export const SocialIcons = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 240px;
+  width: 440px;
 `
 export const SocialIconLink = styled.a`
-  color: #010606;
-  font-size: 34px;
+  color: #f2f5f5;
+  font-size: 54px;
 `

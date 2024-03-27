@@ -1,12 +1,16 @@
 import React from 'react'
 // import { Button } from '../ButtonElements'
-import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, SocialIcons, SocialIconLink, ImgWrap, Img } from './InfoElements'
+import Video from '../../videos/video.mp4'
+import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, SocialIcons, SocialIconLink, ImgWrap, Img, InfoBg, VideoBg } from './InfoElements'
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
 
 const Info = ({lightBg, id, imgStart, topLine, lightText, headline1, headline2, headline3, darkText, description, buttonLabel, alt, img, primary, dark, dark2 }) => {
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
+        <InfoBg>
+          <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+        </InfoBg>
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
             <Column1>
@@ -36,11 +40,11 @@ const Info = ({lightBg, id, imgStart, topLine, lightText, headline1, headline2, 
                 </SocialIcons>
               </TextWrapper>
             </Column1>
-            <Column2>
+            {/* <Column2>
               <ImgWrap>
                 <Img src={img} alt={alt}/>
               </ImgWrap>
-            </Column2>
+            </Column2> */}
           </InfoRow>
         </InfoWrapper>
       </InfoContainer>
