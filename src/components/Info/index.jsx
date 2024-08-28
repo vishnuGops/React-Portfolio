@@ -1,8 +1,10 @@
-import React from 'react'
-// import { Button } from '../ButtonElements'
-import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './InfoElements'
+import React from 'react';
+import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, Skills, BtnWrap, ImgWrap, Img } from './InfoElements';
 
-const Info = ({lightBg, id, imgStart, topLine, lightText, headline1, headline2, headline3, darkText, description, buttonLabel, alt, img, primary, dark, dark2 }) => {
+const Info = ({lightBg, id, imgStart, topLine, lightText, headline1, headline2, headline3, darkText, description,skills,description2, buttonLabel, alt, img, primary, dark, dark2 }) => {
+  // Split the description to handle content formatting
+  // const [intro, skillsSection, outro] = description.split('🔧 Technical Skills:');
+
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
@@ -13,21 +15,9 @@ const Info = ({lightBg, id, imgStart, topLine, lightText, headline1, headline2, 
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline1}</Heading>
                 <Heading lightText={lightText}>{headline2}</Heading>
-                <Heading lightText={lightText}>{headline3}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
-                {/* <BtnWrap>
-                  <Button to='home'
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact='true'
-                  offset={-80}
-                  primary={primary ? 1 : 0}
-                  dark={dark ? 1 : 0}
-                  dark2={dark2 ? 1 : 0}
-                  >{buttonLabel}
-                  </Button>
-                </BtnWrap> */}
+                <Subtitle darkText={darkText}>{description2}</Subtitle>
+                <Skills darkText={darkText}>{skills}</Skills>
               </TextWrapper>
             </Column1>
             <Column2>
@@ -42,4 +32,4 @@ const Info = ({lightBg, id, imgStart, topLine, lightText, headline1, headline2, 
   )
 }
 
-export default Info
+export default Info;

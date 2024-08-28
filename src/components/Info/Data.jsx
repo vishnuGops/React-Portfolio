@@ -6,47 +6,25 @@ export const homeObjOne = {
   topLine: 'Who am I?',
   headline1: 'Software Developer',
   headline2: 'Tech Enthusiast',
-  headline3: 'Computer Science Masters from UTA',
-  description: 'Engaged and Attentive Software Developer with a wide range of Computer Science skills and expertise. When it comes to solving problems, I am more of a creative and out-of-the-box thinker coming up with well-rounded solutions. Working on various projects involving agile methodologies has taught me to get better with success and learn with failure. These team and individual efforts have made me a robust and smart thinker, with strong verbal and written communication skills.',
+  description: `Greetings! I'm Vishnu, a dedicated software developer hailing from Cepheid. With a robust background in Computer Science, I am committed to pushing the boundaries of innovation and delivering creative solutions. My journey through diverse projects has been a continuous learning experience, where both success and failure have served as invaluable teachers.`,
+
+  skills: `🔧 Technical Skills:
+  
+  Languages: Java, Python, C/C++, SQL, JavaScript, HTML/CSS
+  Frameworks: React, Node.js, Flask, Angular, Laravel
+  Developer Tools: Docker, PyTorch, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse
+  Database: MySQL, MongoDB, Spark, Hive, GCP Big Query, GCP Cloud Firestore, and Firebase
+  Operating Systems: Linux/Unix, macOS, Windows
+  Design: Microsoft Office, PowerBI, Adobe, Tableau, Adobe CC`,
+
+  description2: `In the dynamic world of software engineering, I thrive on creative problem-solving and blend teamwork with individual efforts. My ability to think critically and adapt swiftly, coupled with strong communication skills, makes me an effective collaborator on any project.
+  Let's connect and explore the possibilities of collaboration and innovation! 💡`,
+  
   buttonLabel: 'Get started',
   imgStart: false,
   img: '/images/svg-1.svg',
   alt: 'Coder',
   dark: true,
   primary: true,
-  darkText: true
-};
-
-// export const homeObjTwo = {
-//   id: 'discover',
-//   lightBg: true,
-//   lightText: false,
-//   lighttextDesc: false,
-//   topLine: 'Unlimited Access',
-//   headline: 'Login to your account at any time',
-//   description: 'Get access to our exclusive app that allows you to send unlimited transactions whitout getting charged any fees.',
-//   buttonLabel: 'Learn More',
-//   imgStart: true,
-//   img: '/images/svg-4.svg',
-//   alt: 'Piggybanck',
-//   dark: false,
-//   primary: false,
-//   darkText: true
-// };
-
-//currently not in use
-export const homeObjThree = {
-  id: 'contact',
-  lightBg: true,
-  lightText: false,
-  lighttextDesc: false,
-  topLine: 'Get in touch with me',
-  headline: 'Creating an account is extremely easy',
-  description: 'Get access to our exclusive app that allows you to send unlimited transactions whitout getting charged any fees.',
-  buttonLabel: 'Start Now',
-  imgStart: false,
-  img: '/images/svg-3.svg',
-  alt: 'car',
-  primary: false,
   darkText: true
 };

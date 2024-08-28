@@ -1,40 +1,36 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react';
 import Footer from '../components/Footer';
-import Hero from '../components/Hero'
-import Info from '../components/Info'
-import InfoTwo from '../components/InfoTwo'
+import Hero from '../components/Hero';
+import Info from '../components/Info';
+import InfoTwo from '../components/InfoTwo';
 import { homeObjOne} from '../components/Info/Data';
 import { homeObjTwo} from '../components/InfoTwo/Data';
-import Navbar from '../components/Navbar'
+import Navbar from '../components/Navbar';
 import Projects from '../components/Projects';
 import Experience from '../components/Experience';
 import Education from '../components/Education';
-import Sidebar from '../components/SideBar'
+import Sidebar from '../components/SideBar';
 
 const Home = () => {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isSidebarOpen, setSidebarOpen] = useState(false);
 
-  const toggle = () =>{
-    setIsOpen(!isOpen);
-  }
+  const toggleSidebar = () => {
+    setSidebarOpen(!isSidebarOpen);
+  };
 
   return (
     <>
-      <Sidebar isOpen={isOpen} toggle={toggle} />
-      <Navbar toggle={toggle}/>
+      <Sidebar isOpen={isSidebarOpen} toggle={toggleSidebar} />
+      <Navbar toggle={toggleSidebar} />
       <Hero />
-      <Info {...homeObjOne}/>
+      <Info {...homeObjOne} />
       <Experience />
       <Education />
-      {/* <Info {...homeObjTwo}/> */}
       <Projects />
-      
-      
-      <InfoTwo {...homeObjTwo}/>
-      {/* <InfoTwo {...homeObjThree}/> */}
+      <InfoTwo {...homeObjTwo} />
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
