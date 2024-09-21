@@ -44,9 +44,8 @@ export const ServicesCard = styled.div`
   justify-content: flex-start;
   align-items: center;
   border-radius: 10px;
-  height: 700px;
-  max-height: fit-content;
-  padding:  15px 30px ;
+  min-height: 700px;
+  padding:  15px 30px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.2);
   transition: all 0.2s ease-in-out;
 
