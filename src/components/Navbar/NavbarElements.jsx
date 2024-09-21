@@ -1,38 +1,57 @@
-import styled from 'styled-components'
-import { Link as LinkR } from 'react-router-dom'
-import { Link as LinkS } from 'react-scroll'
+import styled from "styled-components";
+import { Link as LinkR } from "react-router-dom";
+import { Link as LinkS } from "react-scroll";
 
 export const Nav = styled.nav`
   /* ff 3.6+ */
-  background:-moz-radial-gradient(circle at 100% 100%, rgba(39, 122, 176, 1) 0%, rgba(32, 0, 36, 1) 100%);
+  background: -moz-radial-gradient(
+    circle at 100% 100%,
+    rgba(39, 122, 176, 1) 0%,
+    rgba(32, 0, 36, 1) 100%
+  );
 
   /* safari 5.1+,chrome 10+ */
-  background:-webkit-radial-gradient(circle at 100% 100%, rgba(39, 122, 176, 1) 0%, rgba(32, 0, 36, 1) 100%);
+  background: -webkit-radial-gradient(
+    circle at 100% 100%,
+    rgba(39, 122, 176, 1) 0%,
+    rgba(32, 0, 36, 1) 100%
+  );
 
   /* opera 11.10+ */
-  background:-o-radial-gradient(circle at 100% 100%, rgba(39, 122, 176, 1) 0%, rgba(32, 0, 36, 1) 100%);
+  background: -o-radial-gradient(
+    circle at 100% 100%,
+    rgba(39, 122, 176, 1) 0%,
+    rgba(32, 0, 36, 1) 100%
+  );
 
   /* ie 10+ */
-  background:-ms-radial-gradient(circle at 100% 100%, rgba(39, 122, 176, 1) 0%, rgba(32, 0, 36, 1) 100%);
+  background: -ms-radial-gradient(
+    circle at 100% 100%,
+    rgba(39, 122, 176, 1) 0%,
+    rgba(32, 0, 36, 1) 100%
+  );
 
   /* global 92%+ browsers support */
-  background:radial-gradient(circle at 100% 100%, rgba(39, 122, 176, 1) 0%, rgba(32, 0, 36, 1) 100%);
-
+  background: radial-gradient(
+    circle at 100% 100%,
+    rgba(39, 122, 176, 1) 0%,
+    rgba(32, 0, 36, 1) 100%
+  );
 
   height: 70px;
   margin-top: -80px;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
   position: sticky;
-  top:0;
-  z-index:10;
+  top: 0;
+  z-index: 10;
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
   }
-`
+`;
 
 export const NavbarContainer = styled.div`
   display: flex;
@@ -42,9 +61,9 @@ export const NavbarContainer = styled.div`
   width: 100%;
   padding: 0 24px;
   max-width: 1100px;
-`
-export const NavLogo = styled(LinkR) `
-  color:#fff;
+`;
+export const NavLogo = styled(LinkR)`
+  color: #fff;
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;
@@ -55,10 +74,10 @@ export const NavLogo = styled(LinkR) `
   margin-bottom: 10px;
   font-weight: bold;
   text-decoration: none;
-`
+`;
 export const MobileIcon = styled.div`
   display: none;
-  
+
   @media screen and (max-width: 768px) {
     display: block;
     position: absolute;
@@ -69,9 +88,9 @@ export const MobileIcon = styled.div`
     cursor: pointer;
     color: #fff;
   }
-`
+`;
 export const NavMenu = styled.ul`
-  display:flex;
+  display: flex;
   justify-content: center;
   list-style: none;
   text-align: center;
@@ -81,10 +100,10 @@ export const NavMenu = styled.ul`
   @media screen and (max-width: 768px) {
     display: none;
   }
-`
+`;
 export const NavItem = styled.li`
   height: 80px;
-`
+`;
 export const NavLinks = styled(LinkS)`
   color: #fff;
   font-weight: bold;
@@ -96,9 +115,9 @@ export const NavLinks = styled(LinkS)`
   cursor: pointer;
 
   &.active {
-    border-bottom: 6px solid #00e6e6
+    border-bottom: 6px solid #00e6e6;
   }
-`
+`;
 // export const NavBtn = styled.nav`
 //   display: flex;
 //   align-items: center;

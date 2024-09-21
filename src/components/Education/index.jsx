@@ -1,16 +1,25 @@
-import React from 'react'
-import Icon1 from '../../images/uta.png'
-import Icon2 from '../../images/bit.png'
+import React from "react";
+import Icon1 from "../../images/uta.png";
+import Icon2 from "../../images/bit.png";
 // import Icon3 from '../../images/svg-3.svg'
-import {ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard,ServicesDesc, ServicesIcon, ServicesH2, ServicesP} from './ServiceElements'
+import {
+  ServicesContainer,
+  ServicesH1,
+  ServicesWrapper,
+  ServicesCard,
+  ServicesDesc,
+  ServicesIcon,
+  ServicesH2,
+  ServicesP,
+} from "./ServiceElements";
 
 const Services = () => {
   return (
-    <ServicesContainer id='education'>
+    <ServicesContainer id="education">
       <ServicesH1>Education</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
-          <ServicesIcon src={Icon1}/>
+          <ServicesIcon src={Icon1} />
           <ServicesH2>The University of Texas at Arlington</ServicesH2>
           <ServicesP>Aug 2019 - May 2021</ServicesP>
           <ServicesP>Arlington, Texas</ServicesP>
@@ -26,7 +35,7 @@ const Services = () => {
           </ServicesDesc>
         </ServicesCard>
         <ServicesCard>
-        <ServicesIcon src={Icon2}/>
+          <ServicesIcon src={Icon2} />
           <ServicesH2>Bangalore Institute of Technology</ServicesH2>
           <ServicesP>Jun 2015 - Jun 2019</ServicesP>
           <ServicesP>Bangalore, India</ServicesP>
@@ -43,7 +52,7 @@ const Services = () => {
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;
