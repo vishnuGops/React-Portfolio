@@ -65,7 +65,7 @@ const Info = ({
                     <FaFacebook />
                   </SocialIconLink> */}
                   <SocialIconLink
-                    href="https://www.instagram.com/vishnugops/"
+                    href="https://www.instagram.com/vish_you_were_there/"
                     target="_blank"
                     arial-label="Instagram"
                   >

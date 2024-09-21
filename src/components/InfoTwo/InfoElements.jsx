@@ -6,20 +6,10 @@ export const InfoContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 600px;
+  min-height: 600px;
   position: relative;
   z-index: 1;
-  :before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    /* background: linear-gradient(180deg, rgba(0,0,0,0.2)0%, rgba(0,0,0,0.6)100%),   */
-    /* linear-gradient(180deg, rgba(0,0,0,0.2)0%, transparent 100%); */
-    z-index: 2;
-  }
+  overflow: hidden;
 `;
 export const InfoBg = styled.div`
   position: absolute;
@@ -42,7 +32,7 @@ export const VideoBg = styled.video`
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 860px;
+  height: fit-content;
   width: 100%;
   max-width: 1500px;
   margin-right: auto;
@@ -50,6 +40,7 @@ export const InfoWrapper = styled.div`
   padding: 0 24px;
   justify-content: center;
 `;
+
 export const InfoRow = styled.div`
   display: grid;
   grid-auto-columns: minmax(auto, 1fr);
@@ -133,4 +124,9 @@ export const SocialIcons = styled.div`
 export const SocialIconLink = styled.a`
   color: #f2f5f5;
   font-size: 54px;
+  z-index: 10;
+  &:hover {
+    color: #01bf71;
+    transition: 0.3s ease-in-out;
+  }
 `;
