@@ -41,7 +41,7 @@ const Hero = () => {
             primary="true"
             dark="true"
             smooth={true}
-            duration={500}
+            duration={750}
             spy={true}
             exact="true"
             offset={-80}
