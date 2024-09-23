@@ -9,13 +9,12 @@ import {
   NavMenu,
   NavLinks,
   NavItem,
-  NavBtn,
-  NavBtnLink,
 } from "./NavbarElements";
 import { animateScroll as scroll } from "react-scroll";
 
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
+
   const changeNav = () => {
     if (window.scrollY >= 80) {
       setScrollNav(true);
@@ -38,7 +37,11 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
-              <img src="/VGLogo.png" height="100%" width="100%"></img>
+              <img
+                src="/VGLogo.png"
+                alt="Logo"
+                style={{ height: "50px", width: "50px" }} // Set a fixed size
+              />
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
@@ -48,7 +51,7 @@ const Navbar = ({ toggle }) => {
                 <NavLinks
                   to="about"
                   smooth={true}
-                  duration={500}
+                  duration={750}
                   spy={true}
                   exact="true"
                   offset={-80}
@@ -60,7 +63,7 @@ const Navbar = ({ toggle }) => {
                 <NavLinks
                   to="experience"
                   smooth={true}
-                  duration={500}
+                  duration={750}
                   spy={true}
                   exact="true"
                   offset={-80}
@@ -72,7 +75,7 @@ const Navbar = ({ toggle }) => {
                 <NavLinks
                   to="education"
                   smooth={true}
-                  duration={500}
+                  duration={750}
                   spy={true}
                   exact="true"
                   offset={-80}
@@ -84,7 +87,7 @@ const Navbar = ({ toggle }) => {
                 <NavLinks
                   to="project"
                   smooth={true}
-                  duration={500}
+                  duration={750}
                   spy={true}
                   exact="true"
                   offset={-80}
@@ -96,7 +99,7 @@ const Navbar = ({ toggle }) => {
                 <NavLinks
                   to="contact"
                   smooth={true}
-                  duration={500}
+                  duration={750}
                   spy={true}
                   exact="true"
                   offset={-80}
@@ -105,9 +108,6 @@ const Navbar = ({ toggle }) => {
                 </NavLinks>
               </NavItem>
             </NavMenu>
-            {/* <NavBtn>
-            <NavBtnLink to='/signin'>Sign In</NavBtnLink>
-          </NavBtn> */}
           </NavbarContainer>
         </Nav>
       </IconContext.Provider>

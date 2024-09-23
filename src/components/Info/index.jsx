@@ -35,9 +35,6 @@ const Info = ({
   dark,
   dark2,
 }) => {
-  // Split the description to handle content formatting
-  // const [intro, skillsSection, outro] = description.split('🔧 Technical Skills:');
-
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
@@ -50,7 +47,12 @@ const Info = ({
                 <Heading lightText={lightText}>{headline2}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <Subtitle darkText={darkText}>{description2}</Subtitle>
-                <Skills darkText={darkText}>{skills}</Skills>
+                <Skills darkText={darkText}>
+                  🔧 Technical Skills:
+                  {skills.map((skill, index) => (
+                    <li key={index}>{skill}</li>
+                  ))}
+                </Skills>
               </TextWrapper>
             </Column1>
             <Column2>

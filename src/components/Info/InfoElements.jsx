@@ -105,7 +105,7 @@ export const Img = styled.img`
 export const Skills = styled.div`
   max-width: 600px; /* Match the width to the rest of the text elements */
   margin-bottom: 35px;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 24px;
   color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
