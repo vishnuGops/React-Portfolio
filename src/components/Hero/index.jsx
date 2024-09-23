@@ -7,6 +7,7 @@ import {
   HeroContent,
   HeroH1,
   HeroP,
+  HeroTagline,
   HeroBtnWrapper,
   ArrowForward,
   ArrowRight,
@@ -27,7 +28,11 @@ const Hero = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>Hi, I am Vishnu</HeroH1>
-        <HeroP>Software Development Engineer</HeroP>
+        <HeroP>Senior Software Engineer</HeroP>
+        <HeroTagline>
+          Blending Creativity, Code, and Collaboration to Deliver Impactful
+          Solutions.
+        </HeroTagline>
         <HeroBtnWrapper>
           <Button
             to="contact"
@@ -36,7 +41,7 @@ const Hero = () => {
             primary="true"
             dark="true"
             smooth={true}
-            duration={500}
+            duration={750}
             spy={true}
             exact="true"
             offset={-80}

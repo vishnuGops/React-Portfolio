@@ -80,8 +80,3 @@ export const ServicesH3 = styled.h2`
   margin-bottom: 10px;
   color: #fff;
 `;
-
-export const ServicesP = styled.p`
-  font-size: 1rem;
-  text-align: center;
-`;
