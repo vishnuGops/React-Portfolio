@@ -4,12 +4,10 @@ export const homeObjOne = {
   lightText: false,
   lighttextDesc: true,
   topLine: "Who am I?",
-  headline1: "Software Developer",
-  headline2: "Tech Enthusiast",
-  description: `Greetings! I'm Vishnu, a dedicated software developer hailing from Cepheid. With a robust background in Computer Science, I am committed to pushing the boundaries of innovation and delivering creative solutions. My journey through diverse projects has been a continuous learning experience, where both success and failure have served as invaluable teachers.`,
+  headline1: "Senior SDE at Cepheid, a Danaher Company",
+  description: `Hi! I'm Vishnu, a software developer at Cepheid with a strong foundation in Computer Science. I am passionate about pushing the boundaries of innovation and delivering creative, impactful solutions. Over the years, my experiences across diverse projects have shaped my continuous learning journey, where both successes and challenges have taught me invaluable lessons.`,
 
-  description2: `In the dynamic world of software engineering, I thrive on creative problem-solving and blend teamwork with individual efforts. My ability to think critically and adapt swiftly, coupled with strong communication skills, makes me an effective collaborator on any project.
-  Let's connect and explore the possibilities of collaboration and innovation! 💡`,
+  description2: `In the fast-paced world of software engineering, I excel at blending creative problem-solving with collaborative teamwork. My adaptability, critical thinking, and clear communication skills enable me to contribute effectively to any project. Let’s connect to explore new opportunities for collaboration and innovation! 💡`,
 
   skills: [
     "Languages: Java, Python, C/C++, SQL, JavaScript, HTML/CSS",

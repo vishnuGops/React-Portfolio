@@ -10,7 +10,6 @@ import {
   Heading,
   Subtitle,
   Skills,
-  BtnWrap,
   ImgWrap,
   Img,
 } from "./InfoElements";
@@ -22,18 +21,12 @@ const Info = ({
   topLine,
   lightText,
   headline1,
-  headline2,
-  headline3,
   darkText,
   description,
   skills,
   description2,
-  buttonLabel,
   alt,
   img,
-  primary,
-  dark,
-  dark2,
 }) => {
   return (
     <>
@@ -44,7 +37,6 @@ const Info = ({
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline1}</Heading>
-                <Heading lightText={lightText}>{headline2}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <Subtitle darkText={darkText}>{description2}</Subtitle>
                 <Skills darkText={darkText}>
