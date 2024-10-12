@@ -6,7 +6,7 @@ export const InfoContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  min-height: 600px;
+  min-height: 950px;
   position: relative;
   z-index: 1;
   overflow: hidden;
