@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const InfoContainer = styled.div`
   color: #fff;
+  min-height: 900px;
   background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
 
   @media screen and (max-width: 768px) {
@@ -37,7 +38,7 @@ export const InfoRow = styled.div`
 
 export const Column1 = styled.div`
   margin-bottom: 15px;
-  margin-top: 45px;
+  margin-top: 100px;
   padding: 0 15px;
   grid-area: col1;
   max-width: 1200px; /* Increased the maximum width */
